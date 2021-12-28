@@ -4,8 +4,7 @@
 
 # An example controller showing a sample home page
 GET     /                           controllers.HomeController.index
-GET    /explore                     controllers.HomeController.explore
-GET    /tutorial                    controllers.HomeController.tutorial
+
 
 GET     /hello                      controllers.HomeController.hello
 GET     /hello/:name                controllers.HomeController.helloWithParam(name: String)
